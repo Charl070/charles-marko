@@ -1,15 +1,16 @@
-Sample App: Marko + Express
+Hello User App: Marko + Express
 ======================================
 
-This sample app illustrates how to integrate Marko with a very basic Express app. For this sample app, we use the streaming API to stream the output of the template rendering to the HTTP response stream. In addition, this sample application illustrates how to create custom tags that can be embedded into your templates.
+This application is using Node, Express, Lasso and MarkoJS
 
 # Installation
 
 ```
-npx @marko/create marko-app --template lasso-express 
-cd marko-app
+clone repo onto your local machine 
+cd charles-marko
 npm install
 npm run dev
 ```
 
 Navigate to [http://localhost:8080/](http://localhost:8080/) to see your server in action!
+add the name query parameter ie ( ?name=Ernst ) to see your name on your browser
